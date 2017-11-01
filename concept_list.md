@@ -5,33 +5,33 @@
 0. abstraction: In computing, abstraction is the crucial step of representing information in terms of its interface with the user.
 0. Data type: in terms of its appearance and the operations that can be performed on it.
     Specifying a basic type does threee things:
-        i. Determine how much memory is needed for a data object.
-        ii. Determin how the bits in memory are interpreted
-        iii. Determine what operations, or methods, can be performed using the data object.
+    1. Determine how much memory is needed for a data object.
+    2. Determin how the bits in memory are interpreted
+    3. Determine what operations, or methods, can be performed using the data object.
 0. class: A class is a C++ tool for translating an abstraction to a user-defined type. 
     A class specification has two parts:
-        i. A class declaration.
-        ii. The class method definitions. 
+    1. A class declaration.
+    2. The class method definitions.
 0. public interface of a type/class: to use a class, you need to know its public interface; to write a class, you need to create its public interface.
     C++ programmers place the interface, in the form of a class definition, in a header file and place the implementation, in the form of code for the class methods, in a source code file.
 0. objects, instances of a class: class is just a blue print, objects/instances of it are the "real guys".
 0. object/variable declaration.
 0. class member function: a class member function can be defined in place(in the class definition) or it can be represented by a prototype and the full definitions for the other member function
     resides in the implementation file, but the prototypes suffice to describe the function interfaces. 
-0. access control for class members: 
-    i. public: any program can access public protions directly (identifies class members that constitute the public interface for the class -- abstraction)
-    ii. private: A program can access the private members of an object only by using the public member functions( or via a friend function)
-    iii. protected: TODO
+0. access control for class members:
+    1. public: any program can access public protions directly (identifies class members that constitute the public interface for the class -- abstraction)
+    2. private: A program can access the private members of an object only by using the public member functions( or via a friend function)
+    3. protected: TODO
 0. Class constructors, destructors
 0. const member functions
 0. "this" pointer
 0. class scope
 0. encapsulation, data hiding:
-    i. data hiding: insulation of data from direct access by a program. It's a good practice in computing, because it preserves the integrity of the data.
-    ii. encapsulation:
+    1. data hiding: insulation of data from direct access by a program. It's a good practice in computing, because it preserves the integrity of the data.
+    2. encapsulation:
 0. polymorphism: 
     variety of polymorphism:
-    i. operator overloading
+    1. operator overloading
 0. inheritance: the basis for reusing code
 0. reusability of code
 

@@ -1,3 +1,10 @@
+//
+//  main.cpp
+//  MiniTutorialCPP
+//
+//  Created by Shihao Xu on 01.11.17.
+//
+
 #include <iostream>
 #include "../include/class_templates.h"
 #include "../include/template_function.h"

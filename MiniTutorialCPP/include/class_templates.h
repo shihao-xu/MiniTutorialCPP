@@ -94,7 +94,7 @@ bool Stack<T>::pop(T& item) {
 }
 
 /**
-* This method will be used to show the content of the stack.
+* This method is used to show the content of the stack.
 * @author Shihao Xu
 * @date 3/1/2017
 */
