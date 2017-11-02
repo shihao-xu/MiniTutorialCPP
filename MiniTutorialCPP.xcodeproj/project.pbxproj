@@ -26,8 +26,12 @@
 		A4B11B511FAA7DE10051C5E2 /* MiniTutorialCPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MiniTutorialCPP; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4B11B5E1FAA7E900051C5E2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = MiniTutorialCPP/src/main.cpp; sourceTree = SOURCE_ROOT; };
 		A4B11B611FAA7F000051C5E2 /* class_templates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = class_templates.h; sourceTree = "<group>"; };
-		A4B11B621FAA7F000051C5E2 /* template_function.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = template_function.h; sourceTree = "<group>"; };
+		A4B11B621FAA7F000051C5E2 /* function_template.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = function_template.h; sourceTree = "<group>"; };
 		A4B11B631FAA7F000051C5E2 /* utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utility.h; sourceTree = "<group>"; };
+		A4B11B641FAB5C4B0051C5E2 /* concept_list.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = concept_list.md; sourceTree = SOURCE_ROOT; };
+		A4B11B651FAB5C590051C5E2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		A4B11B661FAB5EA30051C5E2 /* todo-list.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "todo-list.md"; sourceTree = "<group>"; };
+		A4B11B671FAB66F40051C5E2 /* stock.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = stock.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,9 @@
 		A4B11B531FAA7DE10051C5E2 /* MiniTutorialCPP */ = {
 			isa = PBXGroup;
 			children = (
+				A4B11B661FAB5EA30051C5E2 /* todo-list.md */,
+				A4B11B641FAB5C4B0051C5E2 /* concept_list.md */,
+				A4B11B651FAB5C590051C5E2 /* README.md */,
 				A4B11B601FAA7EE00051C5E2 /* include */,
 				A4B11B5D1FAA7E7F0051C5E2 /* src */,
 			);
@@ -78,8 +85,9 @@
 			isa = PBXGroup;
 			children = (
 				A4B11B611FAA7F000051C5E2 /* class_templates.h */,
-				A4B11B621FAA7F000051C5E2 /* template_function.h */,
+				A4B11B621FAA7F000051C5E2 /* function_template.h */,
 				A4B11B631FAA7F000051C5E2 /* utility.h */,
+				A4B11B671FAB66F40051C5E2 /* stock.hpp */,
 			);
 			path = include;
 			sourceTree = "<group>";

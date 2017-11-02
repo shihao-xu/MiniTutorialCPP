@@ -1,4 +1,4 @@
-# MiniTutorialCPP
+## MiniTutorialCPP
 1. Propose of this tutorial: This project is intended to describe general programming concepts in C++, along with concrete, functional code examples. 
 It could be used as a refresher, or as a thorough tutorial of C++.
 2. Disclaimer: The contents lean heavily on the book "C++ Primer Plus 6.ed" by Stephen Prata. The code snippets are modified so that as many concepts as possible could be explained within less text. 

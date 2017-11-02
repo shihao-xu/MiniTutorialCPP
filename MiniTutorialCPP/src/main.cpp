@@ -7,7 +7,7 @@
 
 #include <iostream>
 #include "../include/class_templates.h"
-#include "../include/template_function.h"
+#include "../include/function_template.h"
 #include "../include/utility.h"
 
 void use_class_template();
